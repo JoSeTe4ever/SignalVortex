@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
+In this project I will make my first inclussion using LLM and AI technology. Using the library LangChain 
+
+El caso de uso más típico es entrenar un modelo con tus datos. Entrenar consiste en:
+- Trocear tus documentos
+- Generar los embeddings (vector de enteros)
+- Almacenar los embeddings en una BBDD vectorial
+
+Predecir consiste en:
+- Generar el embedding de la pregunta.
+- Obtener de la BBDD vectorial los X documentos más similares.
+- Preguntarle al LLM: "Teniendo en cuenta [doc1] y [doc2] y... [docX] responde a [pregunta]"
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
