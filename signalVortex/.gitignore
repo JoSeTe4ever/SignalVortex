@@ -45,3 +45,4 @@ Thumbs.db
 #environment files
 environment.prod.ts
 environment.ts
+.env

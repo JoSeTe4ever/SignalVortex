@@ -14,6 +14,8 @@ Predecir consiste en:
 - Obtener de la BBDD vectorial los X documentos más similares.
 - Preguntarle al LLM: "Teniendo en cuenta [doc1] y [doc2] y... [docX] responde a [pregunta]"
 
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
